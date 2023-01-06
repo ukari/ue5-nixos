@@ -1,0 +1,13 @@
+version: '3'
+services:
+  gitdeps:
+    image: gitdeps:latest
+    build: ./
+    #restart: always
+    container_name: gitdeps
+    hostname: gitdeps
+    privileged: true
+    ports:
+      - '80:80'
+    volumes:
+      - '/tmp/nil:/tmp/nil'
