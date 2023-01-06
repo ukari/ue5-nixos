@@ -19,6 +19,34 @@ in (buildFHSUserEnv rec {
       icu
       openssl
       zlib
+      SDL2.dev
+      vulkan-loader
+      vulkan-tools
+      vulkan-validation-layers
+      glib
+      libxkbcommon
+      nss
+      nspr
+      atk
+      mesa
+      dbus
+      pango
+      cairo
+      xorg.libICE
+      xorg.libSM
+      xorg.libX11
+      xorg.libxcb
+      xorg.libXcomposite
+      xorg.libXcursor
+      xorg.libXdamage
+      xorg.libXext
+      xorg.libXfixes
+      xorg.libXi
+      xorg.libXrandr
+      xorg.libXrender
+      xorg.libXScrnSaver
+      xorg.libxshmfence
+      xorg.libXtst
     ]) ++ (with pkgs.xorg;
     [ libX11
       libXcursor
