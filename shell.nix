@@ -32,6 +32,7 @@ in (buildFHSUserEnv rec {
       dbus
       pango
       cairo
+      libpulseaudio
       xorg.libICE
       xorg.libSM
       xorg.libX11
