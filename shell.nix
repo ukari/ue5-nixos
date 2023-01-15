@@ -34,6 +34,7 @@ in (buildFHSUserEnv rec {
       cairo
       libpulseaudio
       libGL
+      expat
       xorg.libICE
       xorg.libSM
       xorg.libX11
