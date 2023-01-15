@@ -35,6 +35,7 @@ in (buildFHSUserEnv rec {
       libpulseaudio
       libGL
       expat
+      libdrm
       xorg.libICE
       xorg.libSM
       xorg.libX11
